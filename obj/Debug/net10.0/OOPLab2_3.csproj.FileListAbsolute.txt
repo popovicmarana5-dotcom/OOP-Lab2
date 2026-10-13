@@ -1,0 +1,14 @@
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.AssemblyInfoInputs.cache
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.AssemblyInfo.cs
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.csproj.CoreCompileInputs.cache
+/Users/mariana/Documents/OOPLab2_3/bin/Debug/net10.0/OOPLab2_3
+/Users/mariana/Documents/OOPLab2_3/bin/Debug/net10.0/OOPLab2_3.deps.json
+/Users/mariana/Documents/OOPLab2_3/bin/Debug/net10.0/OOPLab2_3.runtimeconfig.json
+/Users/mariana/Documents/OOPLab2_3/bin/Debug/net10.0/OOPLab2_3.dll
+/Users/mariana/Documents/OOPLab2_3/bin/Debug/net10.0/OOPLab2_3.pdb
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.dll
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/refint/OOPLab2_3.dll
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.pdb
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/OOPLab2_3.genruntimeconfig.cache
+/Users/mariana/Documents/OOPLab2_3/obj/Debug/net10.0/ref/OOPLab2_3.dll
