@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
+        x:Class="QuadraticAvalonia.MainWindow"
+        Title="Квадратне рівняння (Avalonia)" Width="400" Height="450">
+    <StackPanel Margin="20">
+        <TextBlock Text="Введіть коефіцієнти:" FontWeight="Bold" Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Коефіцієнт a (a ≠ 0):"/>
+        <TextBox x:Name="TxtA" Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Коефіцієнт b:"/>
+        <TextBox x:Name="TxtB" Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Коефіцієнт c:"/>
+        <TextBox x:Name="TxtC" Margin="0,0,0,15"/>
+
+        <Button Content="Обчислити" Click="Calculate_Click" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Margin="0,0,0,15"/>
+
+        <TextBlock x:Name="LblDiscriminant" Text="Дискримінант: " Margin="0,5"/>
+        
+        <TextBlock x:Name="LblX1" Text="Корінь x1:" Margin="0,5"/>
+        <TextBox x:Name="TxtX1" IsReadOnly="True" Margin="0,0,0,5"/>
+
+        <TextBlock x:Name="LblX2" Text="Корінь x2:" Margin="0,5"/>
+        <TextBox x:Name="TxtX2" IsReadOnly="True" Margin="0,0,0,5"/>
+
+        <TextBlock x:Name="LblMessage" Text="" Foreground="Red" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>
