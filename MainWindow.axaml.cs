@@ -37,7 +37,6 @@ namespace QuadraticAvalonia
                 double x1 = (-b + Math.Sqrt(d)) / (2 * a);
                 double x2 = (-b - Math.Sqrt(d)) / (2 * a);
 
-                // Показуємо обидва корені
                 LblX1.IsVisible = true;
                 TxtX1.IsVisible = true;
                 TxtX1.Text = Math.Round(x1, 3).ToString();
@@ -50,7 +49,6 @@ namespace QuadraticAvalonia
             {
                 double x = -b / (2 * a);
 
-                // Показуємо тільки один корінь, другий ховаємо
                 LblX1.IsVisible = true;
                 TxtX1.IsVisible = true;
                 TxtX1.Text = Math.Round(x, 3).ToString();
@@ -60,7 +58,6 @@ namespace QuadraticAvalonia
             }
             else
             {
-                // Якщо коренів немає, ховаємо обидва поля результатів
                 LblX1.IsVisible = false;
                 TxtX1.IsVisible = false;
                 LblX2.IsVisible = false;
